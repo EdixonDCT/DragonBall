@@ -1,0 +1,77 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    margin: 0px;
+}
+
+.header {
+    font-family: "Saiyan Sans", Arial, sans-serif;
+    font-size: 100px;
+    margin: 0px;
+    background-color: #291717;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.box {
+    width: 300px; 
+    box-shadow: 0px 0px 15px rgb(71, 81, 100);
+    border-radius: 10px;
+    padding: 0 0 30px;
+    background-color: rgb(180, 195, 223);
+    display: inline-block;
+    margin: 10px; 
+    vertical-align: top;
+    transition: background-color 0.3s ease;
+}
+.box:hover{
+    background-color: rgb(90, 81, 124);
+}
+.box:hover .title, 
+.box:hover .text {
+    color: white;
+}
+
+.box:hover .img {
+    filter: drop-shadow(2px 6px 7px white);
+}
+.img {
+    width: 150px;
+    object-fit: cover;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(2px 6px 7px black);
+    transition: background-color 0.3s ease;
+    
+}
+
+.title {
+    padding: 8px;
+}
+.btn{
+    background: #2b232a;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background: white;
+    color: #411e3f;
+}
