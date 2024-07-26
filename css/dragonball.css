@@ -5,13 +5,13 @@
 }
 :root{
   --color_bordeado: rgba(14, 12, 48, 0.656);
-  --color_oscuro:  rgb(90, 81, 124);
-  --color_palido:  rgb(180, 195, 223);
+  --color_oscuro:  rgba(90, 81, 124, 0.9);
+  --color_palido:  rgba(174, 176, 213, 0.774);
   --color_letra: rgb(255,255,255);
 }
 body {
     margin: 0;
-    background-image: url(../img/Background.png);
+    background-image: url(../img/GOKU_UI.gif);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -31,14 +31,14 @@ html {
   width: 20%;
 }
 .box {
-    height: 600px;
+    height: 550px;
     border: solid 5px var(--color_bordeado);
     width: 300px; 
+    display: inline-block;
     box-shadow: 0px 0px 15px var(--color_oscuro);
     border-radius: 10px;
-    padding: 0 0 30px;
+    padding-top: 30px;
     background-color: var(--color_palido);
-    display: inline-block;
     margin: 10px; 
     vertical-align: top;
     transition: background-color 0.3s ease;
@@ -83,4 +83,9 @@ html {
 .btn:hover{
     background: var(--color_palido);
     color: var(--color_bordeado);
+}
+
+.container{
+  display: inline-block;
+  text-align: center;
 }
